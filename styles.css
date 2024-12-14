@@ -1,0 +1,78 @@
+body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+ text-align: center;
+
+}
+
+h1 {
+ background-color: #4CAF50;
+ color: white;
+ margin: 0;
+ padding: 20px;
+
+}
+
+p {
+ margin: 10px 0;
+
+}
+
+/* Map Style */
+#map-container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 20px auto;
+  border: 2px solid #ddd;
+  background-color: #f4f4f4;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.location {
+ position: absolute;
+ padding: 5px 10px;
+ background-color: #007BFF;
+ color: white;
+ border-radius: 5px;
+ cursor: pointer;
+ font-size: 14px;
+ transition: transform 0.2s;
+
+}
+
+.location:hover {
+ transform: scale(1.1);
+ background-color: #0056b3;
+
+}
+
+/* Info box */
+#info-box {
+ width: 400px;
+ margin: 20px auto;
+ padding: 10px;
+ border: 1px solid #ddd;
+ background-color: #fff;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ text-align: left;
+
+}
+
+#info-box h2 { 
+ margin-top: 0;
+
+}
+
+#details {
+ font-size: 16px;
+
+}
+
+
+  
+
+
+ 
